@@ -1,0 +1,37 @@
+.itheme_left {
+    width: 50%;
+    float: left;
+    overflow: hidden;
+}
+
+.itheme_right {
+    width: 40%;
+    overflow: hidden;
+}
+
+.tab-menu {
+    width: 100%;
+    overflow: hidden;
+}
+
+.tab-menu li.active {
+    color: green;
+}
+
+.tab-menu li {
+    float: left;
+    overflow: hidden;
+    padding: 15px;
+    cursor: pointer;
+    font-weight: bold;
+    text-transform: capitalize;
+    font-size: 18px;
+}
+
+.tab-content.active {
+    display: block;
+}
+
+.tab-content {
+    display: none;
+}
